@@ -68,7 +68,7 @@ const Timer = () => {
           : <button onClick={stop}>Stop</button>
         }
         <button onClick={reset}>Reset</button>
-        <button onClick={wait} id="btnWait">Wait</button>
+        <button onDoubleClick={wait} id="btnWait">Wait</button>
       </div>
     </div>
   );
